@@ -7,7 +7,7 @@ chmod +x Zoiper_3.3_Linux_Free_64Bit.run
 ./Zoiper_3.3_Linux_Free_64Bit.run --mode unattended
 rm ~/Zoiper_3.3_Linux_Free_64Bit.run
 
-wget  -O /home/user1/.Zoiper/Config.xml
+wget https://raw.githubusercontent.com/atrp/dsltd/master/Config.xml -O /home/user1/.Zoiper/Config.xml
 chown user1:user1 /home/user1/.Zoiper/Config.xml
 
 cp /usr/share/applications/zoiper.desktop /home/user1/Desktop/Zoiper.desktop
