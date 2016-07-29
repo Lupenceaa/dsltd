@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # add to rc.local the following lines
-# wget https://raw.githubusercontent.com/atrp/dsltd/master/create-tiger-icon.sh /root/create-tiger-icon.sh
+# wget https://raw.githubusercontent.com/atrp/dsltd/master/create-tiger-icon.sh -O /root/create-tiger-icon.sh
 # /bin/bash /root/create-tiger-icon.sh
 
 touch /home/user1/Desktop/tiger.desktop
