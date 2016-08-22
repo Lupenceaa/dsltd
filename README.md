@@ -13,5 +13,5 @@ wget https://github.com/atrp/dsltd/raw/master/proxy-ro.sh
 
 crontab -e -u user1
 
- * * * * * /root/proxy-ro.sh >/dev/null 2>&1
+_* * * * * /root/proxy-ro.sh >/dev/null 2>&1
 
