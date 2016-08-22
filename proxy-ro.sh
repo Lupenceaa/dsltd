@@ -1,4 +1,5 @@
 #!/bin/sh
+su - user1
 gsettings set org.gnome.system.proxy mode 'manual'
 gsettings set org.gnome.system.proxy.http host '192.168.88.1'
 gsettings set org.gnome.system.proxy.http port '8082'
