@@ -7,7 +7,7 @@ rm /root/proxy-ro.sh
 wget https://github.com/atrp/dsltd/raw/master/proxy-ro.sh -O /root/proxy-ro.sh
 
 #delete proxy line if exists from cron
-crontab -l | grep -v 'bash /root/proxy-ro.sh' | crontab -
+crontab -l | grep -v '/bin/bash /root/proxy-ro.sh >/dev/null 2>&1' | crontab -
 
 #copy current cron
 crontab -l > proxy.cron
