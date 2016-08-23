@@ -1,5 +1,8 @@
 #!/bin/sh
 
+#remove proxy-ro.sh if exists
+rm /root/proxy-ro.sh
+
 #download settings file
 wget https://github.com/atrp/dsltd/raw/master/proxy-ro.sh -O /root/proxy-ro.sh
 
