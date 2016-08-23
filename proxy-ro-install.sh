@@ -13,7 +13,7 @@ crontab -l | grep -v 'bash /root/proxy-ro.sh' | crontab -
 crontab -l > proxy.cron
 
 #add proxy to cron file
-echo "* * * * * bash /root/proxy-ro.sh" >> proxy.cron
+echo "* * * * * /root/proxy-ro.sh >/dev/null 2>&1" >> proxy.cron
 
 #add proxy to cron
 crontab proxy.cron
