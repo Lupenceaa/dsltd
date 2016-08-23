@@ -9,9 +9,6 @@ bash zoiper-install.sh
 #Proxy install
 su -
 
-wget https://github.com/atrp/dsltd/raw/master/proxy-ro.sh
+wget https://github.com/atrp/dsltd/raw/master/proxy-ro-install.sh
 
-crontab -e -u user1
-
-_* * * * * /root/proxy-ro.sh >/dev/null 2>&1
-
+bash proxy-ro-install.sh
