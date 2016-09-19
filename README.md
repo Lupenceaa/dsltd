@@ -7,7 +7,7 @@ wget https://github.com/atrp/dsltd/raw/master/zoiper-install.sh
 bash zoiper-install.sh
 
 #Proxy PERMISSIVE install
-su -
+su - 
 
 wget https://github.com/atrp/dsltd/raw/master/proxy-ro-install.sh
 
